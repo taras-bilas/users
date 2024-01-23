@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 200px;
+
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__back-link {
+    display: flex;
+    align-items: center;
+  }
+
+  &__back-icon {
+    width: 30px;
+    height: 30px;
+  }
+}

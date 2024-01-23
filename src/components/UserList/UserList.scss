@@ -1,0 +1,13 @@
+@import './../../utils/index.scss';
+
+.spinner {
+  margin-left: 200px;
+}
+
+.cards {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, $card-width);
+  justify-content: center;
+  margin-bottom: 30px;
+}
